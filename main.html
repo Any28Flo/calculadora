@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body background="img/back.png">
+    <br>
+    <br>
+    <br>
+    <h1 align="center"> CALCULADORA</h1>
+    <div style="text-align: center;">
+    <table border="1" style="margin: 0 auto;">
+      <tr>
+          <td colspan="4"><input  type="text" id="pantalla" ></td>
+      </tr>
+      <tr>
+          <td colspan="4"><input value="Resultado" type="text" id="resultado" disable ></td>
+      </tr>
+      <tr>
+          <td ><input type = "button"  value="1" onclick="enPantalla(this.value);"></td>
+          <td ><input type = "button"  value="2" onclick="enPantalla(this.value);"></td>
+          <td ><input type = "button"  value="3" onclick="enPantalla(this.value);"></td>
+          <td ><input type = "button"  value="+" onclick="enPantalla(this.value);"></td>
+      </tr>
+      <tr>
+          <td ><input type = "button" value="4" onclick="enPantalla(this.value);"></td>
+          <td ><input type = "button" value="5" onclick="enPantalla(this.value);"></td>
+          <td ><input type = "button" value="6" onclick="enPantalla(this.value);"></td>
+          <td ><input type = "button" value="-" onclick="enPantalla(this.value);"></td>
+
+      </tr>
+      <tr>
+          <td ><input type = "button"  value="7" onclick="enPantalla(this.value);"></td>
+          <td ><input type = "button"  value="8" onclick="enPantalla(this.value);"></td>
+          <td ><input type = "button"  value="9" onclick="enPantalla(this.value);"></td>
+          <td ><input type = "button"  value="*" onclick="enPantalla(this.value);">
+      </tr>
+      <tr>
+          <td ><input type = "button" value="." onclick="enPantalla(this.value);"></td>
+          <td ><input type = "button" value="0" onclick="enPantalla(this.value);"></td>
+          <td ><input type = "button" value="=" onclick="operacion();">
+          <td ><input type = "button" value="/" onclick="enPantalla(this.value);">
+      </tr>
+    </table>
+  </div>
+  <script src="js/operaciones.js"> </script>
+  </body>
+</html>
